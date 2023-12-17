@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Posts</title>
+  <link rel="stylesheet" href="/detail.css">
+</head>
+
+<body>
+  <div class="parent">
+    <div class="card">
+      <div class="user-logo">
+        <img src="/<%=post.src%>" alt="">
+      </div>
+      <div class="user-body">
+        <div class="user-name">
+          <%=post.name%>
+        </div>
+        <div class="user-email">
+          <%=post.email%>
+        </div>
+        <div class="user-tweet">
+          <%=post.tweet%>
+        </div>
+      </div>
+      <div class="user-links">
+        <div class="user-github">
+          <a href="<%=post.github%>"></a>
+        </div>
+        <div class="user-twitter">
+          <a href="<%=post.twitter%>"></a>
+        </div>
+        <div class="user-youtube">
+          <a href="<%=post.youtube%>"></a>
+        </div>
+        <div class="user-linkedin">
+          <a href="<%=post.linkedin%>"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

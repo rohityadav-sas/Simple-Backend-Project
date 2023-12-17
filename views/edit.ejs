@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Post</title>
+  <link rel="stylesheet" href="/edit.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <form method="post" action="/posts/<%=post.id%>?_method=PATCH">
+    <div>Edit Post</div>
+    <div>
+      <label for="name">Name</label>
+      <div style="width: fit-content; height: fit-content;">:</div>
+      <input type="text" name="name" value="<%=post.name%>" id="name" readonly>
+    </div>
+    <div>
+      <label for="email">Email</label>
+      <div style="width: fit-content; height: fit-content;">:</div>
+      <input type="email" name="email" value="<%=post.email%>" id="email" readonly>
+    </div>
+    <textarea name="tweet"><%=post.tweet%></textarea>
+    <button>Submit</button>
+  </form>
+</body>
+
+</html>

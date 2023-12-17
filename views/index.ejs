@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Posts</title>
+  <link rel="stylesheet" href="/index.css">
+</head>
+
+<body>
+  <div class="parent">
+    <% for (post of posts) {%>
+    <div class="container">
+      <div class="card">
+        <div class="user-logo"> </div>
+        <div class="user-body">
+          <div class="user-name">
+            <%=post.name%>
+          </div>
+          <div class="user-email">
+            <%=post.email%>
+          </div>
+          <div class="user-tweet">
+            <%=post.tweet%>
+          </div>
+        </div>
+        <div class="user-links">
+          <div class="user-github">
+            <a href="<%=post.github%>"></a>
+          </div>
+          <div class="user-twitter">
+            <a href="<%=post.twitter%>"></a>
+          </div>
+          <div class="user-youtube">
+            <a href="<%=post.youtube%>"></a>
+          </div>
+          <div class="user-linkedin">
+            <a href="<%=post.linkedin%>"></a>
+          </div>
+        </div>
+        <footer> <span><a href="http://localhost:3000/posts/<%=post.id%>">See in Detail</a></span> | <span> <a href="http://localhost:3000/posts/<%=post.id%>/edit">Edit Post</a> </span> | <span> <a onclick="redirect(this,'<%=post.id%>');nextSiblingAnimate(this)">Delete Post</a></span></footer>
+      </div>
+    </div>
+    <%}%>
+    <div id="new-post">
+      <a id="create-post" href="http://localhost:3000/posts/new">Create New Post</a>
+    </div>
+  </div>
+</body>
+
+<script>
+  function redirect(element, id) {
+    let card = element.parentElement.parentElement.parentElement;
+    card.style.transform = 'scale(0)';
+    setTimeout(() => {
+      location.href = `http://localhost:3000/posts/${id}/delete`;
+    }, 300);
+  }
+
+  function nextSiblingAnimate(element){
+    let container=element.parentElement.parentElement.parentElement.parentElement;
+    let nextSibling=container.nextElementSibling;
+    nextSibling.classList.add('flexShrink');
+   againAnimate(nextSibling.nextElementSibling);
+  }
+
+  function againAnimate(element)
+  {
+    if(element){
+      console.log(element);
+    element.classList.add('flexShrink');
+    }
+    else{return;}
+    againAnimate(element.nextElementSibling);
+  }
+
+</script>
+
+</html>
