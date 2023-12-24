@@ -17,10 +17,10 @@ This is a simple backend project built using Express.js, EJS, and other dependen
    git clone https://github.com/your-username/backend.git
 
 3. Navigate to the project directory:
-      cd backend
+   cd backend
    
 4. Install the dependencies
-      npm install
+   npm install
 
 ## Usage
 To start the server, run the following command:
@@ -41,11 +41,11 @@ Feel free to contribute to the project by opening issues or submitting pull requ
 This project is licensed under the ISC License.
 
 ## Contact
-Author: RohitYadav
-GitHub: https://github.com/rohityadav-sas
-Email: rohityadav.se@gmail.com
-Twitter: https://twitter.com/rohityadav_sas
-LinkedIn: https://www.linkedin.com/in/rohit-yadav-864b3124a
+Author: **Rohit Yadav**
+GitHub: **https://github.com/rohityadav-sas**
+Email: **rohityadav.se@gmail.com**
+Twitter: **https://twitter.com/rohityadav_sas**
+LinkedIn: **https://www.linkedin.com/in/rohit-yadav-864b3124a**
 
 
 ## Feel free to modify the content as needed. Let me know if you have any specific changes or additional information you'd like to include!

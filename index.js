@@ -102,7 +102,9 @@ app.get('/posts/new', (req, res) => {
 app.get('/posts/:id', (req, res) => {
     let { id } = req.params;
     let post = posts.find(e => e.id === id);
-    res.render('detail', { post });
+    if (post) {
+        res.render('detail', { post });
+    } else { res.send('Post not found!') }
 })
 
 app.post('/posts', (req, res) => {
