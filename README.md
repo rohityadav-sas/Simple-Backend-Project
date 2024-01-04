@@ -14,7 +14,7 @@ This is a simple backend project built using Express.js, EJS, and other dependen
 ## Installation
 
 1. Clone the repository:
-   git clone https://github.com/your-username/backend.git
+   git clone https://github.com/rohityadav-sas/Simple-Backend-Project/
 
 3. Navigate to the project directory:
    cd backend
