@@ -48,11 +48,14 @@ Feel free to contribute to the project by opening issues or submitting pull requ
 This project is licensed under the ISC License.
 
 ## Contact
-Author: **Rohit Yadav**
-GitHub: **https://github.com/rohityadav-sas**
-Email: **rohityadav.se@gmail.com**
-Twitter: **https://twitter.com/rohityadav_sas**
+If you have any questions, feel free to contact me using the information below:
+
+Author: **Rohit Yadav** 
+
+GitHub: **https://github.com/rohityadav-sas** 
+
+Email: **rohityadav.se@gmail.com** 
+
+Twitter: **https://twitter.com/rohityadav_sas** 
+
 LinkedIn: **https://www.linkedin.com/in/rohit-yadav-864b3124a**
-
-
-## Feel free to modify the content as needed. Let me know if you have any specific changes or additional information you'd like to include!
