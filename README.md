@@ -4,6 +4,7 @@ This is a simple backend project built using Express.js, EJS, and other dependen
 
 ## Table of Contents
 
+- [Preview](#preview)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Dependencies](#dependencies)
