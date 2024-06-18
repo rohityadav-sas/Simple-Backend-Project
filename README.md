@@ -11,6 +11,9 @@ This is a simple backend project built using Express.js, EJS, and other dependen
 - [License](#license)
 - [Contact](#contact)
 
+## Preview
+![preview.png](./assets/preview.png)
+
 ## Installation
 
 1. Clone the repository:
