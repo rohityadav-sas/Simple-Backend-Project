@@ -20,19 +20,23 @@ This is a simple backend project built using Express.js, EJS, and other dependen
 1. Clone the repository:
    ```bash
    git clone https://github.com/rohityadav-sas/Simple-Backend-Project/
+   ```
 
 3. Navigate to the project directory:
    ```bash
    cd backend
+   ```
    
 5. Install the dependencies
    ```bash
    npm install
+   ```
 
 ## Usage
 To start the server, run the following command:
 1. ```bash
    npm start
+   ```
 
 The server will be hosted on http://localhost:3000
 
