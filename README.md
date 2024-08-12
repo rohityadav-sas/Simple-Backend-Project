@@ -33,9 +33,9 @@ This is a simple backend project built using Express.js, EJS, and other dependen
 
 ## Usage
 To start the server, run the following command:
-1. ```bash
-   npm start
-   ```
+```bash
+npm start
+```
 
 The server will be hosted on http://localhost:3000
 
