@@ -1,14 +1,17 @@
 {
-  "name": "backend",
+  "name": "simple-backend-project",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node --watch --watch-path=./ index.js"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "RohitYadav",
+  "keywords": [
+    "nodejs",
+    "backend",
+    "crud-application"
+  ],
+  "author": "Rohit Kumar",
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.1.9",

@@ -8,9 +8,8 @@ This is a simple backend project built using Express.js, EJS, and other dependen
 - [Installation](#installation)
 - [Usage](#usage)
 - [Dependencies](#dependencies)
-- [Contributing](#contributing)
 - [License](#license)
-- [Contact](#contact)
+- [Contributing](#contributing)
 
 ## Preview
 ![preview.png](./assets/preview.png?raw=true)
@@ -41,26 +40,19 @@ To start the server, run the following command:
 The server will be hosted on http://localhost:3000
 
 ## Dependencies
-1. Express
-2. EJS
-3. Method-Override
-4. UUID
 
-## Contributing
-Feel free to contribute to the project by opening issues or submitting pull requests. Your contributions are welcome!
+- ***ejs***: For rendering templates in the application.
+
+- ***express***: For handling HTTP requests and routing.
+
+- ***method-override***: For overriding HTTP methods (e.g., PUT or DELETE) in forms.
+
+- ***uuid***: For generating unique identifiers.
 
 ## License
-This project is licensed under the ISC License.
 
-## Contact
-If you have any questions, feel free to contact me using the information below:
+This project is licensed under the ISC License. See the [LICENSE](./LICENSE) file for details.
 
-Author: **Rohit Yadav** 
+## Contributing
 
-GitHub: **https://github.com/rohityadav-sas** 
-
-Email: **rohityadav.se@gmail.com** 
-
-Twitter: **https://twitter.com/rohityadav_sas** 
-
-LinkedIn: **https://www.linkedin.com/in/rohit-yadav-864b3124a**
+Contributions are welcome! Please feel free to submit a Pull Request.
